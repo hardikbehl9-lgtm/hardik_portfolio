@@ -2,7 +2,7 @@
 My personal portfolio website showcasing my skills, projects, and journey as a Computer Science Engineering (AI) student.
 # Hardik Behl — Personal Portfolio
 
-🌐 **Live Website:**(https://hardikbehl9-lgtm.github.io/hardik_portfolio/)
+🌐 **Live Website:**[View Live Site](https://hardikbehl9-lgtm.github.io/hardik_portfolio/)
 
 ## About the Project
 
