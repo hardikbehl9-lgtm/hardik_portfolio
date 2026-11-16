@@ -3,10 +3,10 @@
 A responsive personal portfolio website built with HTML, CSS and JavaScript, featuring a warm editorial visual style and subtle interactions.
 
 ## Live Website
-Add your GitHub Pages URL here after deployment.
+[View the live site](https://hardikbehl9-lgtm.github.io/hardik_portfolio/)
 
 ## About
-This portfolio introduces Hardik Behl, a Computer Science Engineering student specializing in Artificial Intelligence, and showcases selected projects, skills and contact links.
+This portfolio introduces Hardik Behl, a Computer Science Engineering student specializing in Artificial Intelligence, and showcases selected projects, skills and contact links. It highlights interests in web development, machine learning and creative problem-solving.
 
 ## Features
 - Responsive layout for desktop and mobile
@@ -22,10 +22,10 @@ This portfolio introduces Hardik Behl, a Computer Science Engineering student sp
 - JavaScript
 
 ## Featured Projects
-1. [E-Commerce Website](https://github.com/hardikbehl9-lgtm/E-Commerce_Website)
-2. [Heart Disease Prediction](https://github.com/hardikbehl9-lgtm/Heart_disease_Prediction)
-3. [HR Analytics](https://github.com/hardikbehl9-lgtm/Data_analytics)
-4. [Weather Application](https://github.com/hardikbehl9-lgtm/Weather_Project)
+1. [E-Commerce Website](https://github.com/hardikbehl9-lgtm/E-Commerce_Website) — An online shopping website.
+2. [Heart Disease Prediction](https://github.com/hardikbehl9-lgtm/Heart_disease_Prediction) — A machine learning prediction project.
+3. [HR Analytics](https://github.com/hardikbehl9-lgtm/Data_analytics) — Data analytics and salary prediction project.
+4. [Weather Application](https://github.com/hardikbehl9-lgtm/Weather_Project) — A weather application using an API.
 
 ## Run Locally
 1. Clone or download this repository.
@@ -38,6 +38,6 @@ This portfolio introduces Hardik Behl, a Computer Science Engineering student sp
 - [LinkedIn](https://www.linkedin.com/in/hardik-behl-95a0a4387/)
 
 ## Deployment
-This site is designed for GitHub Pages. In your repository, open **Settings → Pages**, choose **Deploy from a branch**, select `main` and `/(root)`, then save.
+This site is deployed with GitHub Pages. To configure deployment, open **Settings → Pages**, choose **Deploy from a branch**, select `main` and `/(root)`, then save.
 
 Built by Hardik Behl.
