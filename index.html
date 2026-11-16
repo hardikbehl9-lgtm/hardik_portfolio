@@ -3,143 +3,103 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Hardik Behl — CSE (Artificial Intelligence) student, web developer and creative problem solver.">
-  <title>Hardik Behl | Portfolio</title>
+  <meta name="description" content="Hardik Behl — Computer Science Engineering student specializing in Artificial Intelligence, web developer and creative problem solver.">
+  <title>Hardik Behl — Portfolio</title>
+  <meta name="theme-color" content="#f5f1e9">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="page-glow glow-one"></div>
-  <div class="page-glow glow-two"></div>
-
-  <header class="site-header">
-    <nav class="nav container" aria-label="Main navigation">
-      
+  <div class="progress" aria-hidden="true"></div>
+  <header class="header">
+    <nav class="nav wrap" aria-label="Main navigation">
+      <a class="wordmark" href="#home">HB<span>.</span></a>
       <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
       <div class="nav-links">
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact" class="nav-contact">Let's talk <span>↗</span></a>
+        <a href="#home">Home</a><a href="#about">About</a><a href="#skills">Expertise</a><a href="#projects">Selected work</a>
+        <a class="nav-cta" href="#contact">Let's talk <span>↗</span></a>
       </div>
     </nav>
   </header>
 
   <main>
-    <section class="hero container" id="home">
+    <section class="hero wrap" id="home">
       <div class="hero-copy">
-        <div class="eyebrow"><span class="status-dot"></span> CSE (Artificial Intelligence) Student</div>
-        <p class="hello">Hello, I'm</p>
-        <h1>Hardik <span>Behl</span></h1>
-        <h2>Web Developer &amp; Creative Problem Solver</h2>
-        <p class="hero-description">Passionate about building meaningful digital experiences, exploring new technologies, and turning ideas into practical projects.</p>
-        <div class="hero-actions">
-          <a class="button button-primary" href="#projects">Explore my work <span>↘</span></a>
-          <a class="button button-secondary" href="#contact">Get in touch</a>
+        <p class="eyebrow reveal"><span class="eyebrow-line"></span> CSE · Artificial Intelligence</p>
+        <p class="intro reveal">Hello, I'm</p>
+        <h1 class="reveal">Hardik <em>Behl</em><span class="title-period">.</span></h1>
+        <div class="role-line reveal"><span class="role-prefix">I build</span> <span class="typed" aria-label="thoughtful digital experiences"></span><span class="cursor">|</span></div>
+        <p class="hero-description reveal">A web developer and creative problem solver passionate about thoughtful design, emerging technology, and turning ideas into meaningful digital experiences.</p>
+        <div class="hero-actions reveal">
+          <a class="button button-dark" href="#projects">Explore my work <span>↗</span></a>
+          <a class="text-link" href="#contact">Get in touch <span>↗</span></a>
         </div>
-        <div class="hero-socials">
+        <div class="hero-socials reveal">
           <a href="https://github.com/hardikbehl9-lgtm" target="_blank" rel="noreferrer">GitHub ↗</a>
           <a href="https://www.linkedin.com/in/hardik-behl-95a0a4387/" target="_blank" rel="noreferrer">LinkedIn ↗</a>
         </div>
       </div>
-      <div class="hero-visual">
-        <div class="photo-orbit orbit-one"></div>
-        <div class="photo-orbit orbit-two"></div>
-        <div class="photo-frame">
-          <img src="assets/hardik.jpg" alt="Hardik standing outdoors beneath autumn leaves">
+      <div class="hero-visual reveal">
+        <div class="image-backdrop"></div>
+        <div class="image-frame"><img src="assets/hardik.jpg" alt="Hardik Behl portrait"></div>
+        <div class="image-caption"><span>BASED IN INDIA</span><span>✳</span><span>ALWAYS CREATING</span></div>
+        <div class="side-note">DESIGN · DEVELOPMENT · AI</div>
+      </div>
+      <a class="scroll-cue" href="#about"><span></span> Scroll to discover</a>
+      <div class="hero-index">01 — 04</div>
+    </section>
+
+    <section class="section wrap about" id="about">
+      <div class="section-top reveal"><span>01 / ABOUT</span><span class="top-rule"></span><span>A LITTLE INTRODUCTION</span></div>
+      <div class="about-grid">
+        <h2 class="section-title reveal">Curiosity is where<br>good things <em>begin.</em></h2>
+        <div class="about-copy reveal">
+          <p>I'm Hardik, a Computer Science Engineering student specializing in Artificial Intelligence. I'm passionate about web development, exploring new technologies, and solving problems through creative thinking.</p>
+          <p>I enjoy turning ideas into practical projects, learning new skills, and continuously improving as a developer.</p>
+          <div class="about-signature">Hardik Behl <span>✳</span></div>
         </div>
-        <div class="floating-tag tag-top"><span>✦</span> Always learning</div>
-        <div class="floating-tag tag-bottom"><span>⌘</span> Building ideas</div>
       </div>
-      <a class="scroll-cue" href="#about"><span></span> Scroll to explore</a>
+      <div class="stat-strip reveal"><div><strong>04</strong><span>FEATURED PROJECTS</span></div><div><strong>05</strong><span>CORE SKILLS</span></div><div><strong>∞</strong><span>ROOM TO LEARN</span></div></div>
     </section>
 
-    <section class="section container" id="about">
-      <div class="section-heading">
-        <p class="section-kicker">01 / A LITTLE ABOUT ME</p>
-        <h2>Curious mind.<br><span>Creative builder.</span></h2>
-      </div>
-      <div class="about-content">
-        <p>I'm Hardik, a Computer Science Engineering student specializing in Artificial Intelligence. I'm passionate about web development, exploring new technologies, and solving problems through creative thinking.</p>
-        <p>I enjoy turning ideas into practical projects, learning new skills, and continuously improving as a developer.</p>
-        <div class="about-note"><span>✳</span> Currently learning, experimenting, and creating.</div>
-      </div>
-    </section>
-
-    <section class="section container" id="skills">
-      <div class="section-heading">
-        <p class="section-kicker">02 / WHAT I WORK WITH</p>
-        <h2>My <span>toolkit.</span></h2>
-      </div>
-      <div class="skills-grid">
-        <div class="skill-card"><span class="skill-number">01</span><div class="skill-icon">⌁</div><h3>HTML</h3><p>Building structured web pages.</p></div>
-        <div class="skill-card"><span class="skill-number">02</span><div class="skill-icon">✳</div><h3>CSS</h3><p>Creating engaging visual experiences.</p></div>
-        <div class="skill-card"><span class="skill-number">03</span><div class="skill-icon">JS</div><h3>JavaScript</h3><p>Bringing websites to life.</p></div>
-        <div class="skill-card"><span class="skill-number">04</span><div class="skill-icon">Py</div><h3>Python</h3><p>Programming and problem solving.</p></div>
-        <div class="skill-card"><span class="skill-number">05</span><div class="skill-icon">◈</div><h3>Machine Learning</h3><p>Exploring data-driven solutions.</p></div>
-      </div>
-    </section>
-
-    <section class="section container" id="projects">
-      <div class="section-heading projects-heading">
-        <div><p class="section-kicker">03 / SELECTED WORK</p><h2>Things I've <span>built.</span></h2></div>
-        <p class="section-side-note">A few projects where I've explored ideas and put my skills into practice.</p>
-      </div>
-      <div class="projects-grid">
-        <article class="project-card project-purple">
-          <div class="project-top"><span>01 / WEB DEVELOPMENT</span><span class="project-arrow">↗</span></div>
-          <div class="project-art ecommerce-art"><div class="mock-window"><div class="mock-dots">•••</div><div class="mock-bag">▱</div><div class="mock-lines"></div><div class="mock-products"><i></i><i></i><i></i></div></div></div>
-          <h3>E-Commerce Website</h3>
-          <p>An online shopping experience featuring a cart, wishlist, dark mode, and chatbot.</p>
-          <div class="project-tags"><span>React</span><span>Web</span></div>
-          <a class="project-link" href="https://github.com/hardikbehl9-lgtm/E-Commerce_Website" target="_blank" rel="noreferrer">View on GitHub <span>↗</span></a>
-        </article>
-        <article class="project-card project-blue">
-          <div class="project-top"><span>02 / MACHINE LEARNING</span><span class="project-arrow">↗</span></div>
-          <div class="project-art health-art"><div class="pulse-line">⌁⌁⌁⌁⌁</div><div class="health-circle">+</div><div class="health-label">HEALTH<br>INSIGHTS</div></div>
-          <h3>Heart Disease Prediction</h3>
-          <p>A machine learning project that predicts heart disease risk using patient data.</p>
-          <div class="project-tags"><span>Python</span><span>Scikit-learn</span><span>XGBoost</span></div>
-          <a class="project-link" href="https://github.com/hardikbehl9-lgtm/Heart_disease_Prediction" target="_blank" rel="noreferrer">View on GitHub <span>↗</span></a>
-        </article>
-        <article class="project-card project-pink">
-          <div class="project-top"><span>03 / DATA ANALYTICS</span><span class="project-arrow">↗</span></div>
-          <div class="project-art analytics-art"><div class="chart-bars"><i></i><i></i><i></i><i></i><i></i></div><div class="chart-caption">DATA<br>IN MOTION</div></div>
-          <h3>HR Analytics</h3>
-          <p>A data analytics project with a salary prediction app built using Python tools.</p>
-          <div class="project-tags"><span>Python</span><span>Pandas</span><span>Streamlit</span></div>
-          <a class="project-link" href="https://github.com/hardikbehl9-lgtm/Data_analytics" target="_blank" rel="noreferrer">View on GitHub <span>↗</span></a>
-        </article>
-        <article class="project-card project-orange">
-          <div class="project-top"><span>04 / FRONTEND DEVELOPMENT</span><span class="project-arrow">↗</span></div>
-          <div class="project-art weather-art"><div class="sun"></div><div class="cloud">☁</div><div class="weather-temp">24°</div><div class="weather-city">YOUR CITY</div></div>
-          <h3>Weather Application</h3>
-          <p>A weather app built with a clean interface and live weather data integration.</p>
-          <div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>API</span></div>
-          <a class="project-link" href="https://github.com/hardikbehl9-lgtm/Weather_Project" target="_blank" rel="noreferrer">View on GitHub <span>↗</span></a>
-        </article>
-      </div>
-    </section>
-
-    <section class="contact-section" id="contact">
-      <div class="container contact-inner">
-        <p class="section-kicker">04 / HAVE A PROJECT IN MIND?</p>
-        <h2>Let's make something<br><span>great together.</span></h2>
-        <p class="contact-copy">Have an idea, an opportunity, or just want to connect? My inbox is open.</p>
-        <a class="button button-light" href="mailto:hardikbehl9@gmail.com">Say hello <span>↗</span></a>
-        <div class="contact-links">
-          <a href="mailto:hardikbehl9@gmail.com">Email ↗</a>
-          <a href="https://github.com/hardikbehl9-lgtm" target="_blank" rel="noreferrer">GitHub ↗</a>
-          <a href="https://www.linkedin.com/in/hardik-behl-95a0a4387/" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+    <section class="section skills-section" id="skills">
+      <div class="wrap">
+        <div class="section-top reveal"><span>02 / EXPERTISE</span><span class="top-rule"></span><span>TOOLS OF THE TRADE</span></div>
+        <div class="skills-heading"><h2 class="section-title reveal">A growing <em>toolkit.</em></h2><p class="reveal">A mix of creative and technical skills I use to explore ideas and build solutions.</p></div>
+        <div class="skills-list">
+          <div class="skill-row reveal"><span>01</span><h3>HTML</h3><p>Structured, accessible web experiences</p><b>↗</b></div>
+          <div class="skill-row reveal"><span>02</span><h3>CSS</h3><p>Visual systems and responsive layouts</p><b>↗</b></div>
+          <div class="skill-row reveal"><span>03</span><h3>JavaScript</h3><p>Interaction and dynamic experiences</p><b>↗</b></div>
+          <div class="skill-row reveal"><span>04</span><h3>Python</h3><p>Programming and problem solving</p><b>↗</b></div>
+          <div class="skill-row reveal"><span>05</span><h3>Machine Learning</h3><p>Exploring data-driven solutions</p><b>↗</b></div>
         </div>
+      </div>
+    </section>
+
+    <section class="section wrap projects" id="projects">
+      <div class="section-top reveal"><span>03 / SELECTED WORK</span><span class="top-rule"></span><span>A FEW THINGS I'VE BUILT</span></div>
+      <div class="projects-heading"><h2 class="section-title reveal">Ideas into <em>reality.</em></h2><p class="reveal">A selection of projects where I've explored concepts, learned by building, and put ideas into practice.</p></div>
+      <div class="project-grid">
+        <article class="project-card reveal"><div class="project-visual visual-shop"><span class="project-count">01 / WEB DEVELOPMENT</span><div class="shop-window"><div class="window-bar">● ● ● <span>STUDIO / SHOP</span></div><div class="shop-content"><small>THE EVERYDAY EDIT</small><strong>Objects for<br>everyday living.</strong><div class="shop-shapes"><i></i><i></i><i></i></div></div></div></div><div class="project-info"><div><h3>E-Commerce Website</h3><p>An online shopping experience featuring a cart, wishlist, dark mode, and chatbot.</p><div class="tags"><span>React</span><span>Web</span></div></div><a href="https://github.com/hardikbehl9-lgtm/E-Commerce_Website" target="_blank" rel="noreferrer" aria-label="View E-Commerce Website on GitHub">↗</a></div></article>
+        <article class="project-card reveal"><div class="project-visual visual-health"><span class="project-count">02 / MACHINE LEARNING</span><div class="health-design"><span class="pulse">⌁</span><div class="health-ring">+</div><small>HEALTH<br>INSIGHTS</small></div></div><div class="project-info"><div><h3>Heart Disease Prediction</h3><p>A machine learning project that predicts heart disease risk using patient data.</p><div class="tags"><span>Python</span><span>Scikit-learn</span><span>XGBoost</span></div></div><a href="https://github.com/hardikbehl9-lgtm/Heart_disease_Prediction" target="_blank" rel="noreferrer" aria-label="View Heart Disease Prediction on GitHub">↗</a></div></article>
+        <article class="project-card reveal"><div class="project-visual visual-analytics"><span class="project-count">03 / DATA ANALYTICS</span><div class="analytics-design"><small>PEOPLE / INSIGHTS</small><div class="bars"><i></i><i></i><i></i><i></i><i></i></div><strong>DATA<br>IN MOTION</strong></div></div><div class="project-info"><div><h3>HR Analytics</h3><p>A data analytics project with a salary prediction app built using Python tools.</p><div class="tags"><span>Python</span><span>Pandas</span><span>Streamlit</span></div></div><a href="https://github.com/hardikbehl9-lgtm/Data_analytics" target="_blank" rel="noreferrer" aria-label="View HR Analytics on GitHub">↗</a></div></article>
+        <article class="project-card reveal"><div class="project-visual visual-weather"><span class="project-count">04 / FRONTEND DEVELOPMENT</span><div class="weather-design"><div class="weather-sun"></div><div class="weather-cloud">☁</div><strong>24°</strong><small>YOUR CITY · WEATHER</small></div></div><div class="project-info"><div><h3>Weather Application</h3><p>A weather app built with a clean interface and live weather data integration.</p><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>API</span></div></div><a href="https://github.com/hardikbehl9-lgtm/Weather_Project" target="_blank" rel="noreferrer" aria-label="View Weather Application on GitHub">↗</a></div></article>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="wrap contact-inner">
+        <div class="section-top reveal"><span>04 / CONTACT</span><span class="top-rule"></span><span>THE NEXT CHAPTER STARTS HERE</span></div>
+        <p class="contact-overline reveal">HAVE AN IDEA OR AN OPPORTUNITY?</p>
+        <h2 class="reveal">Let's create<br>something <em>meaningful.</em></h2>
+        <a class="contact-button reveal" href="mailto:hardikbehl9@gmail.com">hardikbehl9@gmail.com <span>↗</span></a>
+        <div class="contact-bottom reveal"><span>OPEN TO CONNECT & COLLABORATE</span><div><a href="https://github.com/hardikbehl9-lgtm" target="_blank" rel="noreferrer">GitHub ↗</a><a href="https://www.linkedin.com/in/hardik-behl-95a0a4387/" target="_blank" rel="noreferrer">LinkedIn ↗</a></div></div>
       </div>
     </section>
   </main>
-
-  <footer class="footer container"><p>Designed &amp; built by Hardik Behl</p><a href="#home">Back to top ↑</a></footer>
+  <footer class="footer wrap"><span>© 2026 HARDIK BEHL</span><span>DESIGNED WITH INTENTION <i>✳</i></span><a href="#home">BACK TO TOP ↑</a></footer>
   <script src="script.js"></script>
 </body>
 </html>
